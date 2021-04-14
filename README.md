@@ -18,6 +18,13 @@ trakteer.login({
 
 # Event
 
+## ready
+
+```js
+trakteer.on('ready', x => console.log(x))
+// Return current time
+```
+
 ## connect
 
 ```js
