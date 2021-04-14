@@ -55,7 +55,7 @@ class Trakteer extends EventEmitter {
         value: +new Date()
       })
       this.emit('disconnect', +new Date())
-      this.login()
+      this.login(this.credentials)
     }, 3000)
   }
 
