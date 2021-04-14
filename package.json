@@ -1,0 +1,19 @@
+{
+  "name": "trakteer-ws",
+  "version": "1.0.0",
+  "description": "Trakteer websocket connection",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "keywords": [
+    "trakteer"
+  ],
+  "author": "Haneul Seong <hana@disroot.org>",
+  "license": "WTFPL",
+  "dependencies": {
+    "cheerio": "*",
+    "got": "^11.8.2",
+    "ws": "^7.4.4"
+  }
+}
